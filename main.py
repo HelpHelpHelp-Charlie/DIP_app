@@ -109,5 +109,7 @@ class MainApp:
             self.filter_img.image = filter_img
         except Exception as e:
             messagebox.showerror("An error occured!", e)
+            
+            
 if __name__ == "__main__":
     MainApp().run()
